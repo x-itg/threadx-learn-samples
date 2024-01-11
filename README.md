@@ -44,6 +44,13 @@ Follow the [Set up environment](https://learn.microsoft.com/training/modules/int
 
 ### 方式四:在ubuntu中启动
 
+- 在courses/threadx/ProjectEventChaining下面创建build文件夹
+- cd build
+- cmake ..
+- make
+- ./ProjectEventChaining  运行示例
+- 也可以用vscode打开后运行指定任务
+
 ## Resources
 
 - [Eclipse ThreadX on GitHub](https://github.com/eclipse-threadx)

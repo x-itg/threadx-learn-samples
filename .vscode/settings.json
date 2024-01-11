@@ -1,3 +1,6 @@
 {
-    "cmake.sourceDirectory": "/mnt/d/z/DoubleDrv2/threadx-learn-samples/courses/netxduo/ProjectHelloWorld"
+    "cmake.sourceDirectory": "/mnt/d/z/DoubleDrv2/threadx-learn-samples/courses/netxduo/ProjectHelloWorld",
+    "files.associations": {
+        "tx_api.h": "c"
+    }
 }

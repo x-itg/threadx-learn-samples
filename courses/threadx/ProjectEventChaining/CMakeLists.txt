@@ -16,6 +16,8 @@ project(${PROJECT} VERSION 0.1.0 LANGUAGES C CXX ASM)
 
 add_subdirectory(${LIBS_DIR}/threadx lib)
 
-add_executable(${PROJECT} main.c)
+add_executable(${PROJECT} main.c putSemaphore.c getSemaphore.c)
+
+target_include_directories(${PROJECT} PUBLIC ${CMAKE_SOURCE_DIR})
 
 target_link_libraries(${PROJECT} PUBLIC azrtos::threadx)
